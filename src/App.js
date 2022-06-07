@@ -1,15 +1,13 @@
 import { useState } from "react";
 import { BrowserRouter as Router } from "react-router-dom";
-//import logo from "./logo.svg";
 import "./App.css";
 import Search from "./search";
-//import Announcer from "./announcer";
 
 const posts = [
-  { id: "1", name: "This first post is about React" },
-  { id: "2", name: "This next post is about Preact" },
-  { id: "3", name: "We have yet another React post!" },
-  { id: "4", name: "This is the fourth and final post" }
+  { id: "1", name: "The month is January" },
+  { id: "2", name: "The month is February" },
+  { id: "3", name: "The month is March" },
+  { id: "4", name: "The month is April" }
 ];
 
 const filterPosts = (posts, query) => {
