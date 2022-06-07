@@ -1,6 +1,6 @@
 import { useHistory } from "react-router-dom";
 
-const SearchBar = ({ searchQuery, setSearchQuery }) => {
+const Search = ({ searchQuery, setSearchQuery }) => {
   const history = useHistory;
   const onSubmit = (e) => {
     history.push(`?s=${searchQuery}`);
@@ -25,4 +25,4 @@ const SearchBar = ({ searchQuery, setSearchQuery }) => {
   );
 };
 
-export default SearchBar;
+export default Search;
