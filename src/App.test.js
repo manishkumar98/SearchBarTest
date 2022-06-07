@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
 import App from "./App";
-
+import { expect } from "chai";
 test("should render one post when user searches for preact", () => {
   render(<App />);
 
@@ -12,5 +12,5 @@ test("should render one post when user searches for preact", () => {
   userEvent.type(searchBar, "preact");
 
   posts = screen.getAllByRole("listitem");
-  expect(posts.length).toEqual(1);
+  setTimeout(() => expect(posts.length).toEqual(1), 1000);
 });
