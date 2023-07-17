@@ -1,0 +1,56 @@
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.card {
+  font-size: 30px;
+  font-weight: 600;
+  margin-right: 20px;
+  margin-top: 20px;
+  border: 2px solid black;
+  border-radius: 0px;
+  padding: 20px;
+  width: 500px;
+  background-color: #33ccff;
+  color: white;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+.card p {
+  margin-bottom: 0;
+}
+
+.taco {
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.calculus {
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.ec2 {
+  margin-left: 40%;
+  margin-top: 5%;
+}
+
+.time {
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.date {
+  margin-left: 20%;
+  margin-top: 5%;
+}
